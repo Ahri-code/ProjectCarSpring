@@ -1,0 +1,1 @@
+https://openjpa.apache.org/builds/1.2.3/apache-openjpa/docs/jpa_langref.html
