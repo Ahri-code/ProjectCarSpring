@@ -9,8 +9,8 @@ import java.util.List;
 @Service
 public interface iMacchinaService {
 
-    Integer createMacchina(MacchinaDto socio);
+    Integer createMacchina(MacchinaDto macchina);
     List<MacchinaDto> listAllMacchine();
-    void remove(MacchinaDto socio) throws AcademyException;
+    void remove(MacchinaDto macchina) throws AcademyException;
 
 }

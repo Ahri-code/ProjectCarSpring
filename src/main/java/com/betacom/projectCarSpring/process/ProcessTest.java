@@ -35,8 +35,8 @@ public class ProcessTest {
 
 	public void execute() {
 //		veicoloProcess();
-		listMacchina();
-		removeSocio(1);
+//		listMacchina();
+//		removeMacchina(1);
 	}
 
 	private void veicoloProcess() {
@@ -59,7 +59,7 @@ public class ProcessTest {
 		lS.stream().forEach(c->log.info(c.toString()));
 	}
 
-	private void removeSocio(Integer id) {
+	private void removeMacchina(Integer id) {
 		try {
 			MacchinaDto m = new MacchinaDto();
 			m.setId(id);

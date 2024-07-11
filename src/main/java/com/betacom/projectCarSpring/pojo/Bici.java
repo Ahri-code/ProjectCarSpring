@@ -47,5 +47,53 @@ public class Bici{
 	
 	@OneToOne
 	(mappedBy = "bici")
-	private Veicolo veicolo; 
+	private Veicolo veicolo;
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public Boolean getPieghevole() {
+		return pieghevole;
+	}
+
+	public void setPieghevole(Boolean pieghevole) {
+		this.pieghevole = pieghevole;
+	}
+
+	public Boolean getAssistita() {
+		return assistita;
+	}
+
+	public void setAssistita(Boolean assistita) {
+		this.assistita = assistita;
+	}
+
+	public Integer getAmmortizzatore() {
+		return ammortizzatore;
+	}
+
+	public void setAmmortizzatore(Integer ammortizzatore) {
+		this.ammortizzatore = ammortizzatore;
+	}
+
+	public List<TipoAmmortizzatore> getTipoAmmortizzatore() {
+		return tipoAmmortizzatore;
+	}
+
+	public void setTipoAmmortizzatore(List<TipoAmmortizzatore> tipoAmmortizzatore) {
+		this.tipoAmmortizzatore = tipoAmmortizzatore;
+	}
+
+	public Veicolo getVeicolo() {
+		return veicolo;
+	}
+
+	public void setVeicolo(Veicolo veicolo) {
+		this.veicolo = veicolo;
+	}
 }

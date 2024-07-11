@@ -2,7 +2,7 @@ package com.betacom.projectCarSpring.dto;
 
 
 
-public class Veicolo {
+public class VeicoloDto {
 
 	
 	Integer id; 
@@ -16,12 +16,12 @@ public class Veicolo {
 	Integer idMoto;
 	Integer idBici;
 	
-	public Veicolo() {
+	public VeicoloDto() {
 		super();
 	}
 
-	public Veicolo(Integer id, Integer idColore, Integer idTipoAlimentazione, Integer idCodeMarca, Integer numeroRuote,
-			Integer numeroPosti, String idTipoVeicolo, Integer idMacchina, Integer idMoto, Integer idBici) {
+	public VeicoloDto(Integer id, Integer idColore, Integer idTipoAlimentazione, Integer idCodeMarca, Integer numeroRuote,
+					  Integer numeroPosti, String idTipoVeicolo, Integer idMacchina, Integer idMoto, Integer idBici) {
 		super();
 		this.id = id;
 		this.idColore = idColore;

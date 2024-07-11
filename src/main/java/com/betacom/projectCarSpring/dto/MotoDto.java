@@ -1,17 +1,17 @@
 package com.betacom.projectCarSpring.dto;
 
 
-public class Moto {
+public class MotoDto {
 	
 	Integer id; 
 	String targa;
 	Integer cilindrata;
 	
-	public Moto() {
+	public MotoDto() {
 		super();
 	}
 	
-	public Moto(Integer id, String targa, Integer cilindrata) {
+	public MotoDto(Integer id, String targa, Integer cilindrata) {
 		super();
 		this.id = id;
 		this.targa = targa;

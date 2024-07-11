@@ -3,7 +3,7 @@ package com.betacom.projectCarSpring.dto;
 import com.betacom.projectCarSpring.pojo.Veicolo;
 
 
-public class Bici extends Veicolo{
+public class BiciDto extends Veicolo{
 
 
 	Integer id;
@@ -12,11 +12,11 @@ public class Bici extends Veicolo{
 	Integer ammortizzatore;
 	
 
-	public Bici() {
+	public BiciDto() {
 		super();
 	}
 	
-	public Bici(Integer id, Boolean pieghevole, Boolean assistita, Integer ammortizzatore) {
+	public BiciDto(Integer id, Boolean pieghevole, Boolean assistita, Integer ammortizzatore) {
 		super();
 		this.id = id;
 		this.pieghevole = pieghevole;
